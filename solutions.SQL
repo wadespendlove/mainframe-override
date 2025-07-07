@@ -35,3 +35,20 @@ SELECT * FROM emptystack_accounts WHERE last_name= 'Steele';
 -- Case sensitive. Andrew Steele is the dad.
 --username is triple-cart-38
 --password is password456
+
+SELECT * FROM emptystack_messages WHERE "to"= 'triple-cart-38';
+--found message from you-boss-99 "PROJECT TAXI"
+
+SELECT * FROM emptystack_accounts WHERE username= 'your-boss-99';
+-- username is your-boss-99 
+-- password is notagaincarter
+-- Name is Skylar Singer
+
+SELECT * FROM emptystack_projects;
+
+SELECT * FROM emptystack_projects WHERE code= 'TAXI';
+-- id DczE0v2b
+
+-- node mainframe -stop
+-- input credentials and project name
+-- project shutdown complete
